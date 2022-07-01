@@ -13,6 +13,13 @@
 		8D7EA414286F36250095B48D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA412286F36250095B48D /* Main.storyboard */; };
 		8D7EA416286F36260095B48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA415286F36260095B48D /* Assets.xcassets */; };
 		8D7EA419286F36260095B48D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA417286F36260095B48D /* LaunchScreen.storyboard */; };
+		8D7EA427286F42200095B48D /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA420286F421F0095B48D /* F.wav */; };
+		8D7EA428286F42200095B48D /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA421286F421F0095B48D /* C.wav */; };
+		8D7EA429286F42200095B48D /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA422286F421F0095B48D /* G.wav */; };
+		8D7EA42A286F42200095B48D /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA423286F421F0095B48D /* A.wav */; };
+		8D7EA42B286F42200095B48D /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA424286F421F0095B48D /* B.wav */; };
+		8D7EA42C286F42200095B48D /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA425286F421F0095B48D /* D.wav */; };
+		8D7EA42D286F42200095B48D /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D7EA426286F421F0095B48D /* E.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		8D7EA415286F36260095B48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D7EA418286F36260095B48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D7EA41A286F36260095B48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D7EA420286F421F0095B48D /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		8D7EA421286F421F0095B48D /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		8D7EA422286F421F0095B48D /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		8D7EA423286F421F0095B48D /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		8D7EA424286F421F0095B48D /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		8D7EA425286F421F0095B48D /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		8D7EA426286F421F0095B48D /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +77,23 @@
 				8D7EA415286F36260095B48D /* Assets.xcassets */,
 				8D7EA417286F36260095B48D /* LaunchScreen.storyboard */,
 				8D7EA41A286F36260095B48D /* Info.plist */,
+				8D7EA42E286F422B0095B48D /* Sounds */,
 			);
 			path = KeyNote;
+			sourceTree = "<group>";
+		};
+		8D7EA42E286F422B0095B48D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8D7EA423286F421F0095B48D /* A.wav */,
+				8D7EA424286F421F0095B48D /* B.wav */,
+				8D7EA421286F421F0095B48D /* C.wav */,
+				8D7EA425286F421F0095B48D /* D.wav */,
+				8D7EA426286F421F0095B48D /* E.wav */,
+				8D7EA422286F421F0095B48D /* G.wav */,
+				8D7EA420286F421F0095B48D /* F.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7EA427286F42200095B48D /* F.wav in Resources */,
+				8D7EA429286F42200095B48D /* G.wav in Resources */,
 				8D7EA419286F36260095B48D /* LaunchScreen.storyboard in Resources */,
+				8D7EA428286F42200095B48D /* C.wav in Resources */,
+				8D7EA42C286F42200095B48D /* D.wav in Resources */,
+				8D7EA42B286F42200095B48D /* B.wav in Resources */,
 				8D7EA416286F36260095B48D /* Assets.xcassets in Resources */,
+				8D7EA42D286F42200095B48D /* E.wav in Resources */,
 				8D7EA414286F36250095B48D /* Main.storyboard in Resources */,
+				8D7EA42A286F42200095B48D /* A.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +331,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +360,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
